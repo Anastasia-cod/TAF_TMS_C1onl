@@ -1,3 +1,4 @@
+using NUnit.Allure.Attributes;
 using NUnit.Framework.Internal;
 using OpenQA.Selenium;
 using TAF_TMS_C1onl.Models;
@@ -9,12 +10,13 @@ public class NavigationSteps : BaseStep
 {
     public NavigationSteps(IWebDriver driver) : base(driver) { }
 
-
+    [AllureStep(name:"Navigate to Login page")]
     public LoginPage NavigateToLoginPage()
     {
         return new LoginPage(Driver, true);
     }
-    
+
+    [AllureStep]
     public DashboardPage SuccessfulLogin(string username, string psw)
     {
         Login(username, psw);
