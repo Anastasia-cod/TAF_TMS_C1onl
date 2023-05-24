@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{A759F629-8EDA-4309-8749-85D9A110EF47}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TAF__TMS__C1onl PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TAF_TMS_C1onl/Tests/ProjectsTest.cs">
+    <Files>
+      <File FileName="TAF_TMS_C1onl/Tests/BaseTest.cs" Line="16" Column="33" />
+      <File FileName="TAF_TMS_C1onl/Tests/LoginTest.cs" Line="18" Column="46" />
+      <File FileName="TAF_TMS_C1onl/allureConfig.json" Line="4" Column="15" />
+      <File FileName="TAF_TMS_C1onl/appsettings.json" Line="1" Column="1" />
+      <File FileName="TAF_TMS_C1onl/Tests/ProjectsTest.cs" Line="10" Column="21" />
+      <File FileName="TAF_TMS_C1onl/Steps/NavigationSteps.cs" Line="19" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TAF_TMS_C1onl" expanded="True">
+            <Node name="TAF_TMS_C1onl" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Steps" expanded="True" />
+              <Node name="TestData" expanded="True" />
+              <Node name="Tests" expanded="True" />
+              <Node name="Wrappers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TAF_TMS_C1onl" expanded="True">
+            <Node name="TAF_TMS_C1onl" expanded="True">
+              <Node name="TAF_TMS_C1onl.Tests" expanded="True">
+                <Node name="ProjectsTest" expanded="True">
+                  <Node name="CreateProjectTest" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

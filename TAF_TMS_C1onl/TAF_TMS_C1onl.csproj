@@ -36,9 +36,6 @@
       <Content Include="TestData\GeneralProject.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="Tests\LoginTest.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' ">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
       <Content Include="$(NuGetPackageRoot)nlog.schema/5.1.4/contentFiles/any/any/NLog.xsd" Condition="Exists('$(NuGetPackageRoot)nlog.schema/5.1.4/contentFiles/any/any/NLog.xsd')">
         <NuGetPackageId>NLog.Schema</NuGetPackageId>
         <NuGetPackageVersion>5.1.4</NuGetPackageVersion>
@@ -50,7 +47,4 @@
       </Content>
     </ItemGroup>
 
-    <ItemGroup>
-      <Compile Remove="Tests\LoginTest.cs" />
-    </ItemGroup>
 </Project>
